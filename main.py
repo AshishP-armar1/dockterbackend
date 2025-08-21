@@ -12,6 +12,8 @@ origins = [
     "http://localhost:3000",  # CRA default
     "http://127.0.0.1:5173",
     "http://127.0.0.1:3000",
+    "https://docter-frontend.vercel.app/",
+    "*"
 ]
 
 app.add_middleware(
